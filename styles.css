@@ -136,3 +136,10 @@ details {
   justify-self: center;
   border-radius: 10px;
 }
+
+footer {
+  text-align: center;
+  font-size: .8em;
+  line-height: 4em;
+  margin-top: 1em;
+}
