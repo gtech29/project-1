@@ -5,6 +5,12 @@ In this project, I decided to create a web site about my favorite band, The Door
 
 ---
 
+## Repo
+
+- GitHub Repository: [https://github.com/gtech29/project-1](https://github.com/gtech29/project-1)
+
+---
+
 ## Project Purpose
 
 - The goal of this website is to:
