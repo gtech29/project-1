@@ -37,7 +37,6 @@ The pages are all styled from a common external stylesheet, to help maintain a s
 ├── media/
 │   ├── logo.png
 │   └── Pictures
-|
 ├── featured.html
 ├── history.html
 ├── index.html
