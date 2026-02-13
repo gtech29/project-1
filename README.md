@@ -32,29 +32,24 @@ The pages are all styled from a common external stylesheet, to help maintain a s
 
 ## File Structure (Planned)
 
+```txt
 ├── README.md
-├── index.html
-├── history.html
+├── media/
+│   ├── logo.png
+│   └── Pictures
+|
 ├── featured.html
+├── history.html
+├── index.html
 ├── members.html
-├── styles.css
 ├── script.js
-└── media/
-    ├── images/
-    │   └── logo.png
+├── styles.css
+```
 
 ---
 
 ## Resources
 
-    - MDN Web Docs
-    - W3Schools
-    - Dev Community
-
-## How to View
-
-Clone the repository
-
-Open index.html in Chrome
-
-Navigate using the site menu
+- [Dev Community](https://dev.to/vibhuvibes/integrating-apis-into-your-website-a-beginners-guide-with-practical-examples-38a6)
+- [W3Schools](https://www.w3schools.com/)
+- [MDN Web Docs](https://developer.mozilla.org/en-US/)
