@@ -2,7 +2,7 @@
 const postsContainer = document.getElementById("posts");
 
 // Use the Fetch API to get data from the JSONPlaceholder API
-fetch("https://www.theaudiodb.com/api/v1/json/123/searchalbum.php?s=The+Doors")
+fetch("#")
   .then((response) => response.json()) // Convert the response to JSON format
   .then((data) => {
     const albumsArray = data.album; // access the array inside the object
@@ -21,3 +21,4 @@ fetch("https://www.theaudiodb.com/api/v1/json/123/searchalbum.php?s=The+Doors")
     });
   })
   .catch((error) => console.error("Error fetching posts:", error));
+//https://www.theaudiodb.com/api/v1/json/123/searchalbum.php?s=The+Doors
