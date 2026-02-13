@@ -143,3 +143,17 @@ footer {
   line-height: 4em;
   margin-top: 1em;
 }
+
+.featured-description {
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.featured-description img {
+  width: 50%;
+  height: auto;
+  justify-self: center;
+  border-radius: 10px;
+}
