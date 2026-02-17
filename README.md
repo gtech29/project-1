@@ -58,3 +58,4 @@ The pages are all styled from a common external stylesheet, to help maintain a s
 - [Dev Community](https://dev.to/vibhuvibes/integrating-apis-into-your-website-a-beginners-guide-with-practical-examples-38a6)
 - [W3Schools](https://www.w3schools.com/)
 - [MDN Web Docs](https://developer.mozilla.org/en-US/)
+- [The Audio DB](https://www.theaudiodb.com/)

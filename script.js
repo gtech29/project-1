@@ -1,7 +1,7 @@
 // Get the container element where posts will be displayed
 const postsContainer = document.getElementById("posts");
 
-// Use the Fetch API to get data from the JSONPlaceholder API
+// Use the Fetch API to get data from the JSONPlaceholder API -> For the albums
 fetch("https://www.theaudiodb.com/api/v1/json/123/searchalbum.php?s=The+Doors")
   .then((response) => response.json()) // Convert the response to JSON format
   .then((data) => {
@@ -21,3 +21,4 @@ fetch("https://www.theaudiodb.com/api/v1/json/123/searchalbum.php?s=The+Doors")
     });
   })
   .catch((error) => console.error("Error fetching posts:", error));
+
