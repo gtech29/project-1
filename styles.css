@@ -146,7 +146,7 @@ footer {
 
 .featured-description {
   display: grid;
-  grid-template-columns:1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 25px;
   margin-bottom: 40px;
 }
@@ -156,4 +156,22 @@ footer {
   height: auto;
   justify-self: center;
   border-radius: 10px;
+}
+
+.member-popover {
+  width: 50%;
+  height: 95%;
+}
+
+.member-popover img {
+  display: block;
+  margin: 55px auto 0;
+}
+
+.member-popover h2 {
+  text-align: center;
+  
+}
+.member-popover p{
+  margin: 0 65px 0 ;
 }
