@@ -25,18 +25,15 @@ In this project, I decided to create a web site about my favorite band, The Door
 - The website includes:
 
   - Home Page – Introduction to the band
-
   - Band History – Overview of The Doors’ career and impact
-
   - Featured Albums – Highlighted music and discography
-
   - Band Members – Information about each member
 
 The pages are all styled from a common external stylesheet, to help maintain a style.
 
 ---
 
-## File Structure (Planned)
+## File Structure
 
 ```txt
 ├── README.md
