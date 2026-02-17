@@ -109,19 +109,6 @@ details {
   text-align: center;
 }
 
-@media (max-width: 768px) {
-  .page-details {
-    grid-template-columns: 1fr;
-  }
-
-  nav ul {
-    flex-direction: column;
-  }
-
-  .influence {
-    grid-template-columns: 1fr;
-  }
-}
 
 .influence-description {
   display: grid;
