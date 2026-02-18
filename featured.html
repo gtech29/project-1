@@ -1,4 +1,3 @@
-<!-- A Page about featured songs and albums -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,6 +9,7 @@
 </head>
 
 <body>
+  <!-- NavBar -->
   <header class="intro">
     <div class="container">
       <img src="./media/images/logo.png" alt="Logo" class="logo">
@@ -24,6 +24,7 @@
     </div>
   </header>
   <main>
+    <!-- Main Content Container -->
     <div class="container">
       <header class="overview">
         <h1>Featured Albums</h1>
@@ -39,16 +40,19 @@
         </p>
       </header>
       <section class="featured" aria-labelledby="featured-title">
+        <!-- Render albums from theaudiodb API -->
         <div class="featured-description" id="posts"></div>
       </section>
     </div>
   </main>
+  <!-- Footer -->
   <footer role="contentinfo">
     <p>
       Juan Rodríguez | COMP 484 | Project 1
     </p>
   </footer>
 
+  <!-- JS for API -->
   <script src="script.js"></script>
 </body>
 

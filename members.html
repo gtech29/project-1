@@ -1,5 +1,3 @@
-<!-- A Page about the members of The Doors -->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,6 +9,7 @@
 </head>
 
 <body>
+  <!-- Navbar -->
   <header class="intro">
     <div class="container">
       <img src="./media/images/logo.png" alt="Logo" class="logo">
@@ -25,13 +24,16 @@
     </div>
   </header>
   <main>
+    <!-- Overview Container -->
     <div class="container">
       <header class="overview">
         <h1>Band Members</h1>
         <p>
           The Doors was a band composed of four main members:
         </p>
+        <!-- unordered list with popover buttons that display information about each member -->
         <ul>
+          <!-- Member 1 -->
           <li> <button popovertarget="Jim-Morrison"><strong>Jim Morrison</strong></button>
             <div popover id="Jim-Morrison" class="member-popover"><img src="./media/images/jim.jpg" draggable="true">
               <h2>Singer and lyricist of The Doors</h2>
@@ -40,12 +42,15 @@
                 position of the rock frontman. His lyrics have addressed the freedom, mysticism and the darker aspects
                 of human nature.</p>
             </div>
+            <!-- div with hidden attribute, hidden in order to implement in the future -->
             <div hidden>
               <button>
                 <a href="">Read More</a>
               </button>
             </div>
           </li>
+
+          <!-- Member 2 -->
           <li> <button popovertarget="Ray-Manzarek"><strong>Ray Manzarek</strong></button>
             <div popover id="Ray-Manzarek" class="member-popover"><img src="./media/images/ray.png">
               <h2>Co-founder, keyboardist of the Doors.</h2>
@@ -59,6 +64,8 @@
               </button>
             </div>
           </li>
+
+          <!-- Member 3 -->
           <li> <button popovertarget="Robby-Krieger"><strong>Robby Krieger</strong></button>
             <div popover id="Robby-Krieger" class="member-popover"><img src="./media/images/robby.jpg">
               <h2>Songwriter and Guitarist in The Doors.</h2>
@@ -74,6 +81,8 @@
               </button>
             </div>
           </li>
+
+          <!-- Member 4 -->
           <li> <button popovertarget="John-Densmore"><strong>John Densmore</strong></button>
             <div popover id="John-Densmore" class="member-popover"><img src="./media/images/john.jpg">
               <h2>Drummer of The Doors.</h2>
@@ -83,6 +92,7 @@
             </div>
           </li>
         </ul>
+        <!-- Closing Summary -->
         <p>
           Each member of The Doors contributed to the band's unique sound and style, blending rock, blues, and
           psychedelic music. Jim Morrison's poetic lyrics and charismatic stage presence were a defining aspect of
@@ -90,14 +100,16 @@
           Krieger's guitar work provided a dynamic range of sounds, and John Densmore's drumming added rhythm and
           energy to their performances. Together, they created a lasting legacy in the world of rock music.
         </p>
-
       </header>
-      <section class="members" aria-labelledby="members-title">
-
-      </section>
     </div>
   </main>
-  <script src="script-members.js"></script>
+  <!-- Footer -->
+  <footer role="contentinfo">
+    <p>
+      Juan Rodríguez | COMP 484 | Project 1
+    </p>
+  </footer>
+
 </body>
 
 </html>
