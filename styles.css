@@ -4,16 +4,17 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.intro {
-  background: #686767;
-}
-
+/**** styling for container ****/
 .container {
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
+/**** Navbar Styling ****/
+.intro {
+  background: #686767;
+}
 .intro .container {
   display: flex;
   align-items: center;
@@ -50,6 +51,7 @@ nav ul li a:hover {
   border-radius: 5px;
 }
 
+/**** main section styling ****/
 main {
   padding: 20px;
 }
@@ -109,7 +111,7 @@ details {
   text-align: center;
 }
 
-
+/**** band influence styling ****/
 .influence-description {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -124,6 +126,7 @@ details {
   border-radius: 10px;
 }
 
+/**** footer styling ****/
 footer {
   text-align: center;
   font-size: .8em;
@@ -131,6 +134,7 @@ footer {
   margin-top: 1em;
 }
 
+/**** feature styling ****/
 .featured-description {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -145,6 +149,7 @@ footer {
   border-radius: 10px;
 }
 
+/**** member styling ****/
 .member-popover {
   width: 50%;
   height: 95%;
